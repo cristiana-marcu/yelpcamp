@@ -1,87 +1,29 @@
 # YelpCamp
 Colt's Steele famous YelpCamp, but with PHP and MySql
 
+![index](https://user-images.githubusercontent.com/61842223/87914471-f68ff980-ca70-11ea-88de-d2ce374258f2.png)
+![show](https://user-images.githubusercontent.com/61842223/87914492-fee83480-ca70-11ea-937e-7b0285fc940a.png)
 
-## Getting Started
+YelpCamp is a website where users can create and comment campgrounds. In order to comment or create a campground, you must be logged in. This project was part of Colt Steele's web developer course on Udemy.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Although this project was originally created using Node.js, Express and MongoDB, this version is developed using PHP and MySql.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+## Features
+* Users can create and edit campgrounds
+* Users can review campgrounds once
+* Non users can see all campgrounds and info page on each campground
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [PHP](https://www.php.net/) - The server side language
+* [MySql](https://www.mysql.com/) - Relational DataBase administrated through PhpMyAdmin
+* [Bootstrap](https://getbootstrap.com/) - Used to handle front-end
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Cristiana Marcu**
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* himanshup YelpCamp repository https://github.com/himanshup/yelpcamp
+* Colt Steele and all TA team for their work on the Web Developer Bootcamp
